@@ -1,0 +1,1 @@
+export type OrderStatus = 'pendente' | 'em preparação' | 'pronto' | 'entregue';
