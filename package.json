@@ -4,9 +4,12 @@
   "main": "index.js",
   "scripts": {
     "start:dev": "tsx watch src/index.ts",
-    "test:unit": "jest --testMatch='**/*.unit.spec.ts' --watch --detectOpenHandles",
-    "test:int": "jest --testMatch='**/*.int.spec.ts' --watch --detectOpenHandles",
-    "test:e2e": "jest --testMatch='**/*.e2e.spec.ts' --watch --detectOpenHandles",
+    "test:unit": "jest --testMatch='**/*.unit.spec.ts'",
+    "test:int": "jest --testMatch='**/*.int.spec.ts'",
+    "test:e2e": "jest --testMatch='**/*.e2e.spec.ts'",
+    "test:unit:watch": "jest --testMatch='**/*.unit.spec.ts' --watch --detectOpenHandles",
+    "test:int:watch": "jest --testMatch='**/*.int.spec.ts' --watch --detectOpenHandles",
+    "test:e2e:watch": "jest --testMatch='**/*.e2e.spec.ts' --watch --detectOpenHandles",
     "lint:fix": "eslint --fix"
   },
   "keywords": [],

@@ -15,3 +15,5 @@ npm run test:unit # Testes unitários
 npm run test:int # Testes de integração
 npm run test:e2e # Testes e2e
 ```
+
+Adicione `:watch` à qualquer dos comandos acima para recarregar depois de alguma alteração.
